@@ -14,7 +14,8 @@ display: inline-block;
 }
 header{
 display: grid;
-grid-template-columns: 200px 1fr 200px;;
+grid-template-columns: 200px 1fr 200px;
+padding:30px;
 }
 header nav { justify-self: center; }
 #logo { font-family: Lobster; 
