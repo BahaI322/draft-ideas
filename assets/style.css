@@ -16,7 +16,7 @@ header{
 display: grid;
 grid-template-columns: 200px 1fr 200px;
 padding:30px;
-border: 1px solid black;
+align-items: center;
 }
 header nav { justify-self: center; }
 #logo { font-family: Lobster; 
