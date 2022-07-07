@@ -1,28 +1,29 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-background: whitesmoke;
-color: black;
+    background: whitesmoke;
+    color: black;
 }
 .Logo,.Top_menu {
-display: inline-block;
+    display: inline-block;
 }
 .Top_menu li{
-display: inline-block;
+    display: inline-block;
 }
 header{
-display: grid;
-grid-template-columns: 200px 1fr 200px;
-padding:30px;
-align-items: center;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    padding:30px;
+    align-items: center;
 }
-header nav { justify-self: center;
+header nav { 
+    justify-self: center;
 }
 #logo { font-family: Lobster; 
-font-size: 30px
+    font-size: 30px
 }
 .gallery-list{
     position: relative;
