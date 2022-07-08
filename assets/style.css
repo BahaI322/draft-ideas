@@ -10,7 +10,7 @@ body{
     color: black;
 }
 header{
-padding: 2%;
+    padding: 2%;
 }
 header nav {
     font-family: 'Times New Roman', Times, serif; 
@@ -25,13 +25,11 @@ header nav {
 }
 .gallery-list{
     position: relative;
-    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     overflow: hidden;
     font-size: 0;
     display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr) );
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
 }
 .gallery{
     display: block;
@@ -41,7 +39,6 @@ header nav {
 .gallery-hover{
     position: absolute;
     top: 0;
-    left: 17.5px;
     width: 95%;
     height: 95%;
     background-color: rgba(0,0,0,.7);
@@ -59,7 +56,6 @@ header nav {
 .gallery img{
     width: 95%;
     height: 95%; 
-    margin-left: 17.5px;
     border-radius: 28px;
 }
 
