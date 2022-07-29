@@ -13,21 +13,18 @@
             <a href="#">О нас</a>
             <a href="#">Портфолио</a>
             <a href="#">Контакты</a>
-            <span href="#">Отзывы</span>
+            <span>Отзывы</span>
         </nav>
     </header>
     <main>
-        <form action="" method="post">
+        <form action="add-review.php" method="post">
         <div class="user">
-            <label for="name">Username</label>
+            <label for="login">Username</label>
             <input type="text" name="username">
         </div>
-            <label for="reviews">Отзыв</label>
-            <textarea id="username" name="reviews"
-            rows="15" cols="100">
-            </textarea>
-            <button class="button"
-            type="button">Отправить</button>
+            <label for="comment">Комментарий</label>
+            <textarea id="username" name="message" rows="15" cols="100"></textarea>
+            <button class="button" type="submit">Отправить</button>
         </form>
     </main>
     <footer>
@@ -35,7 +32,7 @@
         <a href="#">О нас</a>
         <a href="#">Портфолио</a>
         <a href="#">Контакты</a>
-        <span href="#">Отзывы</span>
+        <span>Отзывы</span>
     </footer>
 </body>
 </html>
