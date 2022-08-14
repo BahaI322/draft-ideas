@@ -97,4 +97,11 @@ label{
     background-size: cover;
     height: 34px;
     width: 26px;
+    margin: auto;
+}
+.postcard{
+    background-color: rgb(201, 36, 63);
+    max-width: 720px;
+    margin: auto;
+    height: 500px;
 }
