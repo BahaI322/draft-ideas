@@ -1,2 +1,2 @@
-var button = document.getElementsByTagName("input");
+const button = document.getElementById("cursor");
 button.onclick = function(){ alert('hello!'); };
