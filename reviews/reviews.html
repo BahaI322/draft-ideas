@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="review.js"></script>
+    <title>Draft ideas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span id="logo">Draft ideas</span>
+        <nav>
+            <a href="#">О нас</a>
+            <a href="#">Портфолио</a>
+            <a href="#">Контакты</a>
+            <span>Отзывы</span>
+        </nav>
+    </header>
+    <main>
+        <form action="add-review.php" method="post">
+        <div class="user">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+        </div>
+            <label for="message">Комментарий</label>
+            <textarea id="message" name="message" rows="15" cols="100"></textarea>
+            <button class="button" type="submit">Отправить</button>
+        </form>
+    </main>
+    <footer>
+        <a href="mailto:zed_zed228@ro.ru">My Email</a>
+        <a href="#">О нас</a>
+        <a href="#">Портфолио</a>
+        <a href="#">Контакты</a>
+        <span>Отзывы</span>
+    </footer>
+</body>
+</html>
