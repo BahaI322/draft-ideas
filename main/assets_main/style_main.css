@@ -79,32 +79,3 @@ label{
     background: rgb(124, 123, 129);
     border: 5px solid #666;
 }
-.cursor{
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-.bounce{
-    animation-name: bounce;
-    animation-timing-function: linear;
-}
-@keyframes bounce{
-    0%   {transform: translateY(0);}
-    50%  {transform: translateY(-15px);}
-    100% {transform: translateY(0);}
-}
-#cursor{
-    background-image: url(img/cursor.png);
-    background-size: cover;
-    height: 34px;
-    width: 26px;
-    position: absolute;
-    bottom: 15px;
-    left: 45%;
-}
-.postcard{
-    background-color: rgb(201, 36, 63);
-    max-width: 720px;
-    margin: auto;
-    height: 500px;
-    position: relative;
-}
