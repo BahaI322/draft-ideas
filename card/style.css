@@ -65,7 +65,7 @@ body {
         100% {transform: translateY(0);}
     }
     #cursor{
-        background-image: url(img_postcard/cursor.png);
+        background-image: url(img/cursor.png);
         background-size: cover;
         height: 34px;
         width: 26px;
