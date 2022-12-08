@@ -80,6 +80,13 @@ body {
     .card.is-opened {
         transform: rotate(0deg) translate(175px, 0);
     }
+.cart-page-text {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 
