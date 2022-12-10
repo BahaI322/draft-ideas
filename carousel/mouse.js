@@ -4,7 +4,7 @@ addEventListener('mousemove', (event) => {
 });
 
 addEventListener('mousedown', () => {
-	console.log ('mousedonw')
+	console.log ('mousedown')
 });
 
 
