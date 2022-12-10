@@ -5,3 +5,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
     card.classList.toggle('is-opened');
     });
 });
+
