@@ -1,11 +1,9 @@
 
-addEventListener('mousemove', (event) => {
-	console.log ('mousemove: '+event.clientX+', '+event.clientY);
-});
-
-addEventListener('mousedown', () => {
-	console.log ('mousedown')
-});
+onmousemove = (event) => { 
+	addEventListener('mousedown', () => {
+		console.log ('mousemove: '+event.clientX+', '+event.clientY);
+	});
+};
 
 
 
