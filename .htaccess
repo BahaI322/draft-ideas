@@ -1,3 +1,6 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^draft-ideas.com/[NC]
-RewriteRule ^(.*)$ http://draft-ideas.com/ [L,R=301,NC]
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
